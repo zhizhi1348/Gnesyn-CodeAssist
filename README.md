@@ -5,6 +5,12 @@ This guide will help you install dependencies, download the code, and run CodeAs
 
 Program is currently avaliable for Linux & MacOS. You can run it on local system or VPS.
 
+### System Requirements
+- 12 GB RAM minimum (32 GB recommended)
+- Stable internet connection
+- At least 10 GB of available storage (for overhead)
+- Modern multi-core CPU (Intel, AMD, or Apple Silicon)
+
 ## 1. Install Dependencies
 
 Update and upgrade your system:
@@ -71,6 +77,12 @@ Run the application:
 # This command spins up a local Docker environment and launches the web server at localhost:3000 which automatically opens in your device's default browser.
 uv run run.py
 ```
+Authentication:
+1. Visit your [Hugging Face](https://huggingface.co/) profile > Settings > Access Tokens.
+2. Generate a New Token with 'Write' access.
+3. Copy the token string.
+4. When starting CodeAssist, the application will prompt you for the token. Paste it into the terminal or web interface.
+
 ---
 ## Running on a VPS
 If you are running assitant on a VPS, create an SSH tunnel from your local PC:
