@@ -5,8 +5,6 @@ This guide will help you install dependencies, download the code, and run CodeAs
 
 Program is currently avaliable for Linux & MacOS. You can run it on local system or VPS.
 
----
-
 ## 1. Install Dependencies
 
 Update and upgrade your system:
@@ -62,7 +60,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
----
 ## 2. Download the Code
 Clone the repository:
 ```bash
