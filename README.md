@@ -1,3 +1,4 @@
+![source](https://github.com/zhizhi1348/Gnesyn-CodeAssist/blob/main/Screenshot%202025-11-07%20155355.png)
 # CodeAssist Setup Guide
 
 This guide will help you install dependencies, download the code, and run CodeAssist.
